@@ -1,0 +1,24 @@
+#
+# (c) 2019 Center for Genome Platform Projects, Tohoku Medical Megabank Organization
+#
+
+name: base
+dependencies:
+  - bioconda::bcftools=1.9=ha228f0b_4
+  - bioconda::bedtools=2.28.0=hdf88d34_0
+  - bioconda::bwa=0.7.12=1
+  - bioconda::htslib=1.9=hc238db4_4
+  - bioconda::fastqc=0.11.8=1
+  - bioconda::gatk=3.7=py36_1
+  - bioconda::multiqc=1.7=py_4
+  - bioconda::picard=2.10.6=py36_0
+  - bioconda::samtools=1.6=he673b24_3
+  - bioconda::snpeff=4.3.1t=2
+  - bioconda::snpsift=4.3.1t=1
+  - conda-forge::lzstring=1.0.4=py_1001
+  - conda-forge::r=3.5.1=r351_1000
+  - conda-forge::r-argparse=2.0.1=r351h6115d3f_0
+  - conda-forge::r-ggplot2=3.1.1=r351h6115d3f_0
+  - conda-forge::r-ggrepel=0.8.1=r351h0357c0b_0
+  - conda-forge::spectra=0.0.11=py_0
+  - conda-forge::xsv=0.13.0=0
